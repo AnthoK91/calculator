@@ -1,0 +1,47 @@
+/* calcBase */
+
+.outerBox { 
+    width: 25.4375rem;
+    height: 40.6875rem;
+    border-radius: 1.25rem;
+    border: 1px solid #000;
+    background: #D9D9D9;
+    display: flex;
+    justify-items: center;
+    }
+    
+    .screen {
+    width: 23.125rem;
+    height: 9.125rem;
+    
+    position: absolute;
+    right: 1.125rem;
+    top: 1.25rem;
+    
+    border-radius: 0.3125rem;
+    border: 1px solid #000;
+    background: #FFF;
+    }
+    
+    .deleteClear {
+    width: 11.25rem;
+    height: 4.75rem;
+    
+    position: absolute;
+    left: 1.1875rem;
+    top: 11.3125rem;
+    
+    border-radius: 0.625rem;
+    border: 1px solid #000;
+    background: #FA8686;
+    }
+    
+    .normalButtons {
+      width: 5rem;
+    height: 5rem;
+    flex-shrink: 0;
+    
+    border-radius: 0.3125rem;
+    border: 1px solid #000;
+    background: #FFF;
+    }
