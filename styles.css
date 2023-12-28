@@ -1,5 +1,15 @@
 /* calcBase */
 
+
+
+body {
+    color: #000;
+    font-family: Krona One;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    }
+
 .container {
     display: flex;
     justify-content: center;
@@ -20,6 +30,20 @@
     flex-direction: row;
     }
 
+.firstNumber {
+    width: 4rem;
+    height: 2rem;
+}
+
+.operator {
+    width: 4rem;
+    height: 2rem;
+}
+
+.secondNumber {
+    width: 4rem;
+    height: 2rem;
+}
 
 .screen {
     width: 23.125rem;
@@ -30,7 +54,8 @@
     background: #FFF;
     display: flex;
     margin-top: 16px;
-
+    justify-content: center;
+    align-items: center;
     }
 .deleteBoxes {
     display: flex;
@@ -47,6 +72,9 @@
 
     display: flex;
     margin: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     }
 
 .normalButtonsBox {
@@ -56,10 +84,11 @@
 .normalButtons {
     width: 5rem;
     height: 5rem;
-    flex-shrink: 0;
     margin: 6px;
-    
     border-radius: 0.3125rem;
     border: 1px solid #000;
     background: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     }
